@@ -50,6 +50,7 @@ body{
     display:flex;
     justify-content: center;
     backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     background-color: rgba(12, 12, 12, 0.6);
     z-index:100;
 }
@@ -57,31 +58,21 @@ body{
     height:65px;
     width:100%;
     max-width:950px;
-    padding: 0 20px;
-    position: relative;
-    top:1px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .navbar_content-logo{
-    position: relative;
     display: flex;
-    height:21.59px;
-    max-width:70.72px;
-    width:100%;
     align-items: center;
     justify-content: space-around;
+    gap:7.56px;
 }
 .navbar_content-logo img{
-    position: relative;
     height:16px;
     width:16px;
-    position: relative;
 }
 .navbar_content-logo div{
-    position: relative;
-    height:23px;
     font-family: var(--font-family-heading);
     font-weight: 500;
     font-size: 18px;
@@ -92,17 +83,12 @@ body{
     white-space: nowrap;
 }
 .navbar_content-buttons{
-    position: relative;
-    width: auto;
-    height:21px;
     display:flex;
-    justify-content: space-evenly;
     align-items: center;
     gap:8px;
 }
 .navbar_content-buttons a{
     text-decoration: none;
-    height:18px;
     font-family: var(--font-family-heading);
     font-weight: 500;
     font-size: 14px;
@@ -130,7 +116,6 @@ body{
 .hero_content-label{
     margin-top:0;
     display:flex;
-    height:21px;
     justify-content: center;
     align-items: center;
     gap:8px;
@@ -142,7 +127,6 @@ body{
     background-color: var(--color-dot-accent);
 }
 .hero_content-label p{
-    height:21px;
     font-family: var(--font-family-base);
     font-weight: 500;
     font-size: 14px;
@@ -273,6 +257,7 @@ body{
     letter-spacing:-0.12px;
 }
 .hero_logos-section{
+    width:100%;
     margin-top:11.41px;
     max-width:500px;
     aspect-ratio: 500/48;
