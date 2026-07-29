@@ -327,7 +327,7 @@ body{
     letter-spacing: -1.6px;
     line-height: 1.2;
 }
-.how-it-works_content_text_summary {
+.how-it-works_content_text_summary p{
     color:var(--color-text-secondary);
     font-family: var(--font-family-base);
     font-weight: 400;

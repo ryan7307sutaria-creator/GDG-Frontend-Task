@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+    .navbar_content-buttons a {
+        font-size: 13px;
+    }
+ 
+    .hero_content-heading p {
+        font-size: 40px;    
+        letter-spacing: -1.6px;   
+    }
+ 
+    .how-it-works_content_text_heading p {
+        font-size: 32px;   
+        letter-spacing: -1.28px;
+    }
+}
+ 
+@media (max-width: 480px) {
+ 
+    .navbar_content-buttons {
+        display: none;
+    }
+ 
+    .hero {
+        padding-top: 40px;     
+        padding-bottom: 32px; 
+    }
+ 
+    .hero_content-heading p {
+        font-size: 28px;       
+        letter-spacing: -1px;
+    }
+ 
+    .hero_content-summary p {
+        font-size: 14px;       
+    }
+ 
+    .hero_content-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+ 
+    .buttons-download,
+    .buttons-feature {
+        width: 100%;
+    }
+
+    .how-it-works {
+        padding-top: 48px;    
+        padding-bottom: 48px;
+    }
+ 
+    .how-it-works_content_text_heading p {
+        font-size: 24px;       
+        letter-spacing: -0.9px;
+    }
+}
